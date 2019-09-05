@@ -1,0 +1,33 @@
+<html>
+    <head>
+	<title>Last Name, First Name - HA2</title>
+	<script src="data.js" type="text/javascript"></script>
+	<script src="HA2.js" type="text/javascript"></script>
+	<script src="https://d3js.org/d3.v5.min.js" type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" href="HA2.css" />
+    </head>
+    <body>
+      <div class="container">
+	<div class="view">
+	    <svg id="drawing0" class="barchart" />
+	</div>
+	<div class="view">
+	    <div class="controls">
+		<label for="x-select">x:</label>
+		<select id="x-select"></select>
+		<label for="y-select">y:</label>
+		<select id="y-select"></select>
+		<label for="size-select">size:</label>
+		<select id="size-select"></select>
+		<label for="color-select">color:</label>
+		<select id="color-select"></select>
+		<label for="filter-select">filter:</label>
+		<select id="filter-select"></select>
+	    </div>
+	    <div>
+	      <svg id="drawing1" class="scatterplot" />
+	    </div>
+	</div>
+      </div>
+    </body>
+</html>

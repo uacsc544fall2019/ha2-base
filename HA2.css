@@ -1,0 +1,49 @@
+html, body {
+    height: 100%;
+    padding: 0;
+}
+
+div {
+    padding: 5px;
+}
+
+svg {
+    border: 1px black solid;
+}
+
+select {
+    width: 230px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-right: 2px;
+}
+
+.barchart {
+    width: 850;
+    height: 220;
+}
+
+.scatterplot {
+    width: 600;
+    height: 600;
+    border: 1px black solid;
+}
+
+.container {
+    position: relative;
+}
+
+.view {
+    width: 850px;
+    display: flex;
+    flex-direction: row;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+}
