@@ -1,13 +1,7 @@
 
 var ha2 = {
-    svgNS: 'http://www.w3.org/2000/svg',
-    signals: {
-	x: 'X',
-	y: 'Y',
-	color: 'COLOR',
-	size: 'SIZE',
-	selection: 'SELECTION'
-    }
+    svgNS: 'http://www.w3.org/2000/svg'
+    // YOUR CODE HERE
 };
 
 window.addEventListener('load', function () {
