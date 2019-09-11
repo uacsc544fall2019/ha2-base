@@ -67,6 +67,7 @@ var createController = function(model) {
 
 
 var createScatterModel = function(data) {
+    var _data = data;
     // YOUR CODE HERE
 
     // This function gets the list of categories the data items
